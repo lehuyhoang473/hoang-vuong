@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Đầu tiên tải môi trường dotenv trong frontend ( npm i dotenv )
+trong .env (
+  REACT_APP_API_URL=http://localhost:3002/api
+)
+
+và ở trong phần backendt kia cũng vậy.
+trong .env (
+          PORT = 3001
+          MONGO_DB = mongodb+srv://qlbs:hoang2003@cluster0.bauqwhg.mongodb.net/?retryWrites=true&w=majority
+          ACCESS_TOKEN=access_token
+          REFRESH_TOKEN=refresh_token
+          CLIENT_ID=AX7n9ai7bBl_byUzXikdBS9AkUL3r-juoIieE6y4jQZnJW9y5ospq23vUsbXNLgRlyxbt7j2ugSNdmnL
+          MAIL_ACCOUNT=lehuyhoang04072k3@gmail.com
+          MAIL_PASSWORD=sscw tsmq ujje vscc
+)
+
+MAIL_ACCOUNT  và MAIL_PASSWORD ( là mã bảo mật cấp 2 của email để có thể gửi về gmail )
+
+
